@@ -1,0 +1,89 @@
+  #bodyStyle {
+    background-color: white; 
+    background-image: linear-gradient(to bottom, white , rgb(204, 204, 204));
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-header h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.04167;
+    font-weight: 580;
+    letter-spacing: .006em;
+    margin-top: 0.3em;
+    color: black;
+  }
+
+  .formStyle{
+    background-image: url("../Photos/notebookBackground.png");
+    border-radius:5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(180, 180, 180);
+    margin-top: 2%;
+    margin-left: 15%;
+    text-align: center;
+    height: 400px;
+    width: 70%;
+    opacity: 0.6;
+  }
+  .formDateTime{
+    margin-left: 23.5%;
+  }
+
+  #noteDescription {
+    height: 150px;
+    width: 150px;
+    resize: none;
+    margin-left: 15%;
+}
+
+.noteUI{
+  background-color: rgb(241, 234, 170);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  margin-left: 8%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 18rem;
+  height: 300px;
+  max-width: 18rem
+}
+
+.fade-in{
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.noteTextBox{
+  margin-left: 10%;
+  margin-top: 18%;
+  width: 18rem;
+  height: 200px;
+  overflow: auto;
+  max-height: 200px;
+  max-width: 80%;
+}
+
+.noteDueDate{
+float: left;
+margin-left: 10%;
+}
+
+.hiddenDelButton{
+  float: right;
+}
+
+
+
